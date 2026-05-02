@@ -29,7 +29,9 @@ export function Contact() {
           </p>
 
           <a
-            href="mailto:ausu951@gmail.com"
+            href={GMAIL_COMPOSE}
+            target="_blank"
+            rel="noreferrer"
             className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-primary text-primary-foreground font-semibold hover:scale-105 transition-transform glow-primary mb-12"
           >
             Start a Conversation →
