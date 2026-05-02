@@ -7,6 +7,7 @@ import { Experience } from "@/components/portfolio/Experience";
 import { Projects } from "@/components/portfolio/Projects";
 import { Certifications } from "@/components/portfolio/Certifications";
 import { Contact } from "@/components/portfolio/Contact";
+import { CursorGlow } from "@/components/portfolio/CursorGlow";
 
 export const Route = createFileRoute("/")({
   component: Index,
