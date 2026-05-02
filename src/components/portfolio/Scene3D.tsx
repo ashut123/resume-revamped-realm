@@ -61,14 +61,16 @@ export function Scene3D() {
         <pointLight position={[-10, -10, -5]} intensity={1} color="#06b6d4" />
         <pointLight position={[0, 5, 5]} intensity={0.8} color="#ec4899" />
 
-        <Stars radius={100} depth={50} count={5000} factor={4} saturation={0} fade speed={1} />
+        <Stars radius={120} depth={60} count={7000} factor={4.5} saturation={0} fade speed={1.2} />
         <Planet />
         <OrbitingShape position={[3, 1.5, 0]} color="#06b6d4" geometry="torus" />
         <OrbitingShape position={[-3, -1, 1]} color="#ec4899" geometry="ico" />
         <OrbitingShape position={[2.5, -2, -1]} color="#a78bfa" geometry="ico" />
         <OrbitingShape position={[-2.8, 2, -1]} color="#fbbf24" geometry="torus" />
+        <OrbitingShape position={[3.5, -1.8, 1.5]} color="#34d399" geometry="ico" />
+        <OrbitingShape position={[-3.6, 1.8, 0.5]} color="#f472b6" geometry="torus" />
 
-        <OrbitControls enableZoom={false} enablePan={false} autoRotate autoRotateSpeed={0.5} />
+        <OrbitControls enableZoom={false} enablePan={false} autoRotate autoRotateSpeed={0.5} makeDefault />
       </Suspense>
     </Canvas>
   );

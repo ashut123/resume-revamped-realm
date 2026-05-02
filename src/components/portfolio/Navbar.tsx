@@ -31,8 +31,10 @@ export function Navbar() {
           ))}
         </ul>
         <a
-          href="mailto:ausu951@gmail.com"
-          className="hidden md:inline-flex items-center px-4 py-2 rounded-full text-sm font-medium bg-primary text-primary-foreground hover:scale-105 transition-transform glow-primary"
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=ausu951@gmail.com&su=Let%27s%20work%20together"
+          target="_blank"
+          rel="noreferrer"
+          className="inline-flex items-center px-4 py-2 rounded-full text-sm font-medium bg-primary text-primary-foreground hover:scale-105 transition-transform glow-primary"
         >
           Hire Me
         </a>
