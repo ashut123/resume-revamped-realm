@@ -30,13 +30,15 @@ export const Route = createRootRoute({
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { name: "description", content: "Your 3D Portfolio showcases your resume and LinkedIn profile in an interactive 3D environment." },
       { name: "author", content: "Lovable" },
       { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:description", content: "Your 3D Portfolio showcases your resume and LinkedIn profile in an interactive 3D environment." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Lovable App" },
+      { name: "twitter:description", content: "Your 3D Portfolio showcases your resume and LinkedIn profile in an interactive 3D environment." },
     ],
     links: [
       {
