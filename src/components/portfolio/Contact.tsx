@@ -1,11 +1,12 @@
 import { motion } from "framer-motion";
 
+const GMAIL_COMPOSE = "https://mail.google.com/mail/?view=cm&fs=1&to=ausu951@gmail.com&su=Let%27s%20work%20together";
+
 const links = [
-  { label: "Email", value: "ausu951@gmail.com", href: "mailto:ausu951@gmail.com" },
-  { label: "Phone", value: "+91 93058 95286", href: "tel:+919305895286" },
-  { label: "GitHub", value: "github.com/ashut123", href: "https://github.com/ashut123" },
-  { label: "LinkedIn", value: "ashutosh-mishra-21b10a228", href: "https://linkedin.com/in/ashutosh-mishra-21b10a228" },
-  { label: "Portfolio", value: "ashutoshmishraonline.tech", href: "https://ashutoshmishraonline.tech" },
+  { label: "Email (Gmail)", value: "ausu951@gmail.com", href: GMAIL_COMPOSE, external: true },
+  { label: "Phone", value: "+91 93058 95286", href: "tel:+919305895286", external: false },
+  { label: "GitHub", value: "github.com/ashut123", href: "https://github.com/ashut123", external: true },
+  { label: "LinkedIn", value: "ashutosh-mishra-21b10a228", href: "https://linkedin.com/in/ashutosh-mishra-21b10a228", external: true },
 ];
 
 export function Contact() {
