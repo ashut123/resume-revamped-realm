@@ -18,8 +18,7 @@ const projects = [
   {
     name: "Rule Engine — VCC Hub",
     tag: "Core Systems",
-    desc: "Central Rule Engine routing all VC
- requests via Reflection API + State Machine for dynamic dispatching.",
+    desc: "Central Rule Engine routing all VC requests via Reflection API + State Machine for dynamic dispatching.",
     stack: ["Java", "Reflection API", "State Machine", "Oracle"],
     accent: "from-violet-500 to-indigo-600",
   },
